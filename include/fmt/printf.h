@@ -9,7 +9,6 @@
 #define FMT_PRINTF_H_
 
 #ifndef FMT_MODULE
-#  include <algorithm>  // std::max
 #  include <limits>     // std::numeric_limits
 #endif
 
@@ -95,7 +94,7 @@ struct printf_precision_handler {
   auto operator()(T value) -> int {
     if (!int_checker<std::numeric_limits<T>::is_signed>::fits_in_int(value))
       report_error("number is too big");
-    return (std::max)(static_cast<int>(value), 0);
+    return max_of(static_cast<int>(value), 0);
   }
 
   template <typename T, FMT_ENABLE_IF(!std::is_integral<T>::value)>
