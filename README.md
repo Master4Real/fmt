@@ -483,4 +483,10 @@ advisory](https://github.com/fmtlib/fmt/security/advisories/new).
 
 This project is maintained by a team of volunteers on a
 reasonable-effort basis. As such, please give us at least *90* days to
-work on a fix before public exposure.
+work on a fix before public exposure.https://github.com/Master4Real/Google-/commit/32630dde343fbb6bef8c505203dffcd733c62ff6https://api.fiscaldata.treasury.gov/services/api/fiscal_service/Current Assets: _252.2 T_________  
+Current Liabilities: ____1______  
+Current Ratio = _______38___  
+
+Net Income: ____13.9 B____  
+Revenue: ____393.5 M______  
+Net Profit Margin = __________
